@@ -1,10 +1,14 @@
 import React from "react";
 import Header from "../../components/Header";
+import Review from './Review'
 
 function Landing() {
   return (
     <div className="">
       <Header />
+
+      <div className="h-screen max-w-screen-lg mx-auto">
+
 
       <main className="h-screen max-w-screen-lg flex items-center mx-auto">
         <div className="max-w-xl">
@@ -36,7 +40,11 @@ function Landing() {
         </div>
       </main>
 
-      <div className="h-96"></div>
+      <section>
+        <Review />
+      </section> 
+      </div>
+
     </div>
   );
 }

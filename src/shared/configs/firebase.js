@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import {
   getFirestore,
   doc,
+  addDoc,
   onSnapshot,
   collection,
   query,
@@ -27,4 +28,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getFirestore(app);
 
-export { database, doc, onSnapshot, collection, query };
+export { database, doc, addDoc, onSnapshot, collection, query };

@@ -1,9 +1,8 @@
 import { useState } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { getCenter } from "geolib";
-import { features } from "../../shared/data/data";
 
-function Map({ location, selectedLocation, handleSelectLocation }) {
+function Map({ location, features, selectedLocation, handleSelectLocation }) {
   const coordinates = features.map((item) => ({
     longitude: item.longitude,
     latitude: item.latitude,

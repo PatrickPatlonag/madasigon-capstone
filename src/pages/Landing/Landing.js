@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../../components/Header";
 import Review from "./Review";
 import Functions from "./Functions";
 import left from "../../assets/img/left-bg-decor.png";
 import right from "../../assets/img/right-bg-decor.png";
+import Team from "./Team";
 
 function Landing() {
+  const teamRef = useRef(0);
+  const scrollTo = () => {
+    teamRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
     <div className="relative">
-      <Header />
+      <Header scrollTo={scrollTo} />
 
       <div className="h-screen max-w-screen-lg mx-auto">
         <main className="h-screen max-w-screen-lg flex items-center mx-auto">
@@ -46,6 +51,9 @@ function Landing() {
         </section>
 
         <Functions />
+        <div ref={teamRef}>
+          <Team />
+        </div>
       </div>
 
       <img src={left} alt="" />

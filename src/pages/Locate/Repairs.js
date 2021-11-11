@@ -36,7 +36,7 @@ function Repairs({ features, calculateDistance, handleSelectLocation }) {
                 {item.open} - {item.close}
               </p>
               <p className="text-sm text-gray-600">{item.phone}</p>
-              <p>{item.distance}km</p>
+              <p>{item.distance} km away</p>
               <button
                 className="bg-primary absolute bottom-2 right-2 flex items-center text-white px-4 py-2 rounded-md"
                 onClick={() => handleSelectLocation(item)}

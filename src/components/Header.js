@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
-function Header() {
+function Header({ scrollTo }) {
   const history = useHistory();
   const [isScrolled, setIsScrolled] = useState(false);
   window.onscroll = () => {
@@ -27,8 +27,9 @@ function Header() {
         <div className="flex items-center space-x-8">
           <p>HOME</p>
           <p onClick={() => history.push("/locate")}>LOCATE SHOPS</p>
-          <p>THE TEAM</p>
-          <p>CONTACT US</p>
+          <p onClick={() => scrollTo()} className="cursor-pointer">
+            THE TEAM
+          </p>
         </div>
       </div>
     </div>

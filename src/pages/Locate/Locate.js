@@ -49,16 +49,14 @@ function Locate() {
       <Header />
       <main className="flex min-h-screen min-w-screen">
         <section className="min-h-screen w-full flex-1">
-          {
-            shops.length > 0 &&
-          <Map
-            location={location}
-            selectedLocation={selectedLocation}
-            handleSelectLocation={handleSelectLocation}
-            features={shops}
-          />
-        }
-
+          {shops.length > 0 && (
+            <Map
+              location={location}
+              selectedLocation={selectedLocation}
+              handleSelectLocation={handleSelectLocation}
+              features={shops}
+            />
+          )}
         </section>
         <section className="pt-20" style={{ width: 600 }}>
           <Repairs

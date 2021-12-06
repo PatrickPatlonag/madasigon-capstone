@@ -22,17 +22,11 @@ function Landing() {
               Madasigon, a Binisaya speaking Chatbot
             </h1>
             <p className="pr-20 text-justify text-lg my-2">
-              Is an intent-based service chatbot that uses the Cebuano or
-              Binisaya dialect such that the Bisaya people may be able to assist
-              users with their problems without having to worry about using
-              their mother tongue language.
+              Usa ka intent-based service chatbot nga naggamit sa Cebuano o
+              Binisaya nga diyalekto aron ang mga Bisaya makatabang sa mga
+              tiggamit sa ilang mga problema nga dili na mabalaka sa paggamit sa
+              ilang sariling pinulongan
             </p>
-            <button
-              className="px-6 py-3 rounded-full text-white font-bold my-2"
-              style={{ backgroundColor: "#FBA70B" }}
-            >
-              HOW TO USE
-            </button>
           </div>
           <div>
             <lottie-player

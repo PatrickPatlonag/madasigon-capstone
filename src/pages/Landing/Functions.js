@@ -13,8 +13,8 @@ function Functions() {
             Intent-based chatbot
           </h1>
           <p className="text-xl text-left w-96">
-            Madasigon is an intent-based chatbot which means conversation comes
-            naturally which makes it easy to use.
+            Ang Madasigon kay usa ka intent-based nga chatbot nga nagpasabot nga
+            ang panag-istoryahanay natural nga mopadali sa paggamit niini.
           </p>
         </div>
       </div>
@@ -24,7 +24,8 @@ function Functions() {
             Available 24/7
           </h1>
           <p className="text-xl text-right w-96">
-            Madasigon can be used 24/7 so you can access it whenever you want.
+            Ang Madasigon mahimong gamiton 24/7 aron ma-access nimo kini bisan
+            kanus-a nimo gusto.
           </p>
         </div>
         <img src={online} alt="" className="h-60 px-20" />
@@ -36,8 +37,9 @@ function Functions() {
             Location based-service
           </h1>
           <p className="text-xl text-left w-96">
-            Madasigon uses location based-services in order for the customer to
-            know the nearest phone repair shop.
+            Ang Madasigon naggamit sa mga serbisyo nga nakabase sa lokasyon aron
+            mahibal-an sa kostumer ang labing duol nga tindahan sa pag-ayo sa
+            telepono.
           </p>
         </div>
       </div>

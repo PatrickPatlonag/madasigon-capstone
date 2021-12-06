@@ -100,7 +100,7 @@ function Review() {
       {/* RIGHT */}
       <div className="border border-primary rounded-md flex-1">
         <h1 className="text-3xl text-center font-bold mb-10">
-          Leave some feedback
+          Magbilin ug feedback
         </h1>
         <div className="flex flex-col items-center space-y-6">
           <div>

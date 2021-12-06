@@ -21,14 +21,9 @@ function Team() {
           <h5>Document Specialist</h5>
           <div className="flex items-center opacity-60 mb-6">
             <MailIcon className="h-5 w-5 mr-2 text-primary" />
-            <p>sample@gmail.com</p>
+            <p>jsullan_180000001777@uic.edu.ph </p>
           </div>
-          <p className="text-justify">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Perspiciatis odio, ab alias consequatur non ratione quidem optio
-            reiciendis magni odit provident aliquid ipsam quaerat animi dolor
-            temporibus sit fuga dolores?
-          </p>
+          <p className="text-justify"></p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -42,15 +37,10 @@ function Team() {
           <h5>Project Manager</h5>
           <div className="flex items-center opacity-60 mb-6">
             <MailIcon className="h-5 w-5 mr-2 text-primary" />
-            <p>sample@gmail.com</p>
+            <p>jsullan_180000001777@uic.edu.ph </p>
           </div>
 
-          <p className="text-justify">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-            architecto delectus minus doloribus reiciendis inventore odit quos
-            soluta illum non ipsam, velit esse consectetur quas enim quae saepe?
-            Incidunt, quis.
-          </p>
+          <p className="text-justify"></p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -64,14 +54,9 @@ function Team() {
           <h5>Developer</h5>
           <div className="flex items-center opacity-60 mb-6">
             <MailIcon className="h-5 w-5 mr-2 text-primary" />
-            <p>sample@gmail.com</p>
+            <p>rpatlonag_180000001915@uic.edu.ph</p>
           </div>
-          <p className="text-justify">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
-            provident iure commodi delectus repudiandae id facere unde nam
-            doloremque, suscipit ducimus repellendus nisi expedita eius vero
-            pariatur quam incidunt consequuntur.
-          </p>
+          <p className="text-justify"></p>
         </div>
       </div>
     </section>

@@ -27,9 +27,6 @@ function Header({ scrollTo }) {
         <div className="flex items-center space-x-8">
           <p>HOME</p>
           <p onClick={() => history.push("/locate")}>LOCATE SHOPS</p>
-          <p onClick={() => scrollTo()} className="cursor-pointer">
-            THE TEAM
-          </p>
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Header from "../../components/Header";
-import Review from "./Review";
 import Functions from "./Functions";
 import left from "../../assets/img/left-bg-decor.png";
 import right from "../../assets/img/right-bg-decor.png";

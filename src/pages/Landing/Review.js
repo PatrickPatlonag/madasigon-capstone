@@ -97,7 +97,7 @@ function Review() {
             <div className="space-y-2 w-full px-16">
               <div className="flex justify-around capitalize">
                 <div className="flex-1">
-                  <h1></h1>
+                  <h1>{""}</h1>
                 </div>
                 <div className="flex-1 self-center flex justify-center">
                   <p className="px-4 text-primary font-semibold flex-1 flex items-center gap-2">

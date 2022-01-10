@@ -25,8 +25,9 @@ function Header({ scrollTo }) {
           MADASIGON
         </h1>
         <div className="flex items-center space-x-8">
-          <p>HOME</p>
+          <p onClick={() => history.push("/")}>HOME</p>
           <p onClick={() => history.push("/locate")}>LOCATE SHOPS</p>
+          <p onClick={() => history.push("/reviews")}>REVIEWS</p>
         </div>
       </div>
     </div>

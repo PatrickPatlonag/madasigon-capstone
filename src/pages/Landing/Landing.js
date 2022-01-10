@@ -40,9 +40,9 @@ function Landing() {
           </div>
         </main>
 
-        <section className="mb-32">
+        {/* <section className="mb-32">
           <Review />
-        </section>
+        </section> */}
 
         <Functions />
         <div ref={teamRef}>
